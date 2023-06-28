@@ -1,0 +1,14 @@
+p {
+  font-family: Lato;
+}
+
+.content {
+  background: #fff;
+}
+p {
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+}
