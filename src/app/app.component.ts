@@ -12,9 +12,9 @@ export class AppComponent {
   @ViewChild('content') content: ElementRef;
 
   makePdf() {
-    let doc = new jsPDF();
+    let doc = new jsPDF('p', 'mm', 'a4');
     doc.addHTML(this.content.nativeElement, function () {
-      doc.save('obrz.pdf');
+      doc.save('jagdish-eee.pdf');
     });
   }
 }
